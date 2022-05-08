@@ -55,7 +55,7 @@ type OneCallWeather struct {
 type Minutely struct {
 	TimeRaw       int64 `json:"dt"`
 	Time          time.Time
-	Precipitation int `json:"precipitation"`
+	Precipitation float64 `json:"precipitation"`
 }
 
 type Hourly struct {
