@@ -1,0 +1,7 @@
+repository:
+  # See https://docs.github.com/en/rest/reference/repos#update-a-repository for all available settings.
+  allow_auto_merge: true
+  delete_branch_on_merge: true
+  allow_squash_merge: true
+  allow_merge_commit: true
+  allow_rebase_merge: true
